@@ -260,9 +260,9 @@ font-weight: normal;
 
 .photo-grid {
   display: grid;
-  grid: repeat(5 , auto) / repeat(4 , auto);
+  grid-template-columns: repeat(4 , auto);
   gap: 16px;
-  justify-content: center;
+  margin: 0 auto;
   max-width: 1184px;
   padding: 32px 48px;
 }
