@@ -1,66 +1,198 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Путешествия по России</title>
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/styles.css">
-
-</head>
-<body class="root">
- <main class="main">
-  <header class="header">
-    <img class="header__logo" alt="Логотип" src="./images/header-logo.svg">
-    <ul class="header__lang-links">
-      <li>
-        <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
-      </li>
-      <li>
-        <a class="header__lang-link" href="#">En</a>
-      </li>
-    </ul>
-  </header>
-  <section class="lead">
-    <h1 class="lead__title">Путешествия по России</h1>
-    <p class="lead__subtitle">
-      Настоящая страна не в&nbsp;выпусках новостей, а здесь.
-    </p>
-    <div class="lead__image-container">
-    <img class="lead__image" src="./images/lead-polka.jpg">
-    <p class="lead__caption">ваша полка — верхняя</p>
-  </div>
-  </section>
-  <section class="intro">
-    <h2 class="intro__title">Чего мы там не видели?</h2>
-      <p class="intro__subtitle">
-        По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели?
-         На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов.
-        Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
-      </p>
-     <ul class="intro__list">
-      <li>Часовых поясов <span class="intro__list-span_accent">11</span></li>
-      <li>Объектов природного наследия ЮНЕСКО <span class="intro__list-span_accent">12</span></li>
-      <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list-span_accent">16</span></li>
-      <li>Природных заповедников <span class="intro__list-span_accent">105</span></li>
-      <li>Аэропортов <span class="intro__list-span_accent">241</span></li>
-     </ul>
-  </section>
-  <section class="photo-grid">
-    <img src="./images/photo-grid-train.jpg" alt="Фотография вида из окна поезда" class="photo-grid__item">
-    <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Фотография заснеженных гор" class="photo-grid__item">
-    <img src="./images/photo-grid-tuman.jpg" alt="Фотография туманного поля" class="photo-grid__item">
-    <img src="./images/photo-grid-sochi.jpg" alt="Фотография туманного леса" class="photo-grid__item">
-    <img src="./images/photo-grid-arisa.jpg" alt="Фотография машины на льду" class="photo-grid__item">
-    <img src="./images/photo-grid-baikal.jpg" alt="Фотография пляжа" class="photo-grid__item">
-    <img src="./images/photo-grid-elbrus.jpg" alt="Фотография горный пик" class="photo-grid__item">
-    <img src="./images/photo-grid-kondratiev.jpg" alt="Фотография знака пешеходного перехода" class="photo-grid__item">
-    <img src="./images/photo-grid-kamchatka-1.jpg" alt="Фотография горной реки в тумане" class="photo-grid__item">
-    <img src="./images/photo-grid-kamchatka-2.jpg" alt="Фотография горного пейзажа" class="photo-grid__item">
-    <img src="./images/photo-grid-baikal-2.jpg" alt="Фотография скал" class="photo-grid__item">
-    <img src="./images/photo-grid-ergaki.jpg" alt="Фотография туманных гор" class="photo-grid__item">
-</section>
-
-</main>
-</body>
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body class="root">
+    <main class="main">
+      <header class="header">
+        <img
+          class="header__logo"
+          alt="Логотип"
+          src="./images/header-logo.svg"
+        />
+        <ul class="header__lang-links">
+          <li>
+            <a class="header__lang-link header__lang-link_active" href="#"
+              >Ru</a
+            >
+          </li>
+          <li>
+            <a class="header__lang-link" href="#">En</a>
+          </li>
+        </ul>
+      </header>
+      <section class="lead">
+        <h1 class="lead__title">Путешествия по России</h1>
+        <p class="lead__subtitle">
+          Настоящая страна не в&nbsp;выпусках новостей, а здесь.
+        </p>
+        <div class="lead__image-container">
+          <img class="lead__image" src="./images/lead-polka.jpg" />
+          <p class="lead__caption">ваша полка — верхняя</p>
+        </div>
+      </section>
+      <section class="intro">
+        <h2 class="intro__title">Чего мы там не видели?</h2>
+        <p class="intro__subtitle">
+          По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
+          36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома,
+          не видели? На самом деле, Россия — это целая вселенная с ласковым
+          морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё
+          увидеть все эти красоты можно без миллионов на счету, загранпаспорта и
+          многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая
+          мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и
+          проехала 20 тысяч километров по родной стране. Мы выбрали и описали
+          некоторые интересные места, достойные вашего отпуска.
+        </p>
+        <ul class="intro__list">
+          <li>
+            Часовых поясов <span class="intro__list-span_accent">11</span>
+          </li>
+          <li>
+            Объектов природного наследия ЮНЕСКО
+            <span class="intro__list-span_accent">12</span>
+          </li>
+          <li>
+            Объектов культурного наследия ЮНЕСКО
+            <span class="intro__list-span_accent">16</span>
+          </li>
+          <li>
+            Природных заповедников
+            <span class="intro__list-span_accent">105</span>
+          </li>
+          <li>Аэропортов <span class="intro__list-span_accent">241</span></li>
+        </ul>
+      </section>
+      <section class="photo-grid">
+        <img
+          src="./images/photo-grid-train.jpg"
+          alt="Фотография вида из окна поезда"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-atharva-tulsi.jpg"
+          alt="Фотография заснеженных гор"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-tuman.jpg"
+          alt="Фотография туманного поля"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-sochi.jpg"
+          alt="Фотография туманного леса"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-arisa.jpg"
+          alt="Фотография машины на льду"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-baikal.jpg"
+          alt="Фотография пляжа"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-elbrus.jpg"
+          alt="Фотография горный пик"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-kondratiev.jpg"
+          alt="Фотография знака пешеходного перехода"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-kamchatka-1.jpg"
+          alt="Фотография горной реки в тумане"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-kamchatka-2.jpg"
+          alt="Фотография горного пейзажа"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-baikal-2.jpg"
+          alt="Фотография скал"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-ergaki.jpg"
+          alt="Фотография туманных гор"
+          class="photo-grid__item"
+        />
+      </section>
+      <section class="places">
+        <article class="place">
+          <h2 class="place__title">Куршская коса</h2>
+          <div class="place__website">
+            <p class="place__url-heading">url</p>
+            <a class="place__link" target="_blank" href="park-kosa.ru"
+              >park-kosa.ru</a
+            >
+          </div>
+          <img
+            class="place__image"
+            alt="Фотография Куршской косы"
+            src="./images/place-kosa.jpg"
+          />
+          <div class="place__pargraphs">
+            <p class="place__paragraph">
+              Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
+              горизонта — спокойного Куршского залива с одной стороны и
+              подёрнутого рябью волн Балтийского моря с другой. Уникальная
+              природная зона на краю российского анклава.
+            </p>
+            <p class="place__paragraph">
+              На этом Калининградская область не заканчивается. Для
+              путешественника и исследователя там же по соседству — самая
+              западная точка России, Балтийская коса, — и немецкое наследие
+              россыпи небольших приморских городов. Атмосфера здешних мест
+              исключает суету, окуная в спокойствие природы и запах стального,
+              прохладного моря.
+            </p>
+          </div>
+        </article>
+        <article class="place">
+          <h2 class="place__title">Куршская коса</h2>
+          <div class="place__website">
+            <p class="place__url-heading">url</p>
+            <a class="place__link" target="_blank" href="park-kosa.ru"
+              >park-kosa.ru</a
+            >
+          </div>
+          <img
+            class="place__image"
+            alt="Фотография Куршской косы"
+            src="./images/place-kosa.jpg"
+          />
+          <div class="place__pargraphs">
+            <p class="place__paragraph">
+              Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
+              горизонта — спокойного Куршского залива с одной стороны и
+              подёрнутого рябью волн Балтийского моря с другой. Уникальная
+              природная зона на краю российского анклава.
+            </p>
+            <p class="place__paragraph">
+              На этом Калининградская область не заканчивается. Для
+              путешественника и исследователя там же по соседству — самая
+              западная точка России, Балтийская коса, — и немецкое наследие
+              россыпи небольших приморских городов. Атмосфера здешних мест
+              исключает суету, окуная в спокойствие природы и запах стального,
+              прохладного моря.
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
