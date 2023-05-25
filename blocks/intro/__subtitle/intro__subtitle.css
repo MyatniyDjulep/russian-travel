@@ -5,3 +5,9 @@
   line-height: 1.63;
   padding-bottom: 33px;
 }
+
+@media screen and (max-width: 1023px) {
+  .intro__subtitle {
+    max-width: 720px;
+  }
+}
