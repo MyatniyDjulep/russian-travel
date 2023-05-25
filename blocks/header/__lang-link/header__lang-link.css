@@ -1,0 +1,9 @@
+.header__lang-link {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__lang-link:hover:hover {
+  opacity: 0.8;
+}
